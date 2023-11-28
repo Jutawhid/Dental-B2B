@@ -1,0 +1,68 @@
+.tab-content {
+  border-radius: 10px;
+  /* margin-top: 30px; */
+}
+.summery-box {
+  margin: 0px 5px;
+  width: 25%;
+}
+.summery {
+  background-color: #f6f6f6;
+  border-radius: 10px;
+  padding: 50px 25px;
+  text-align: center;
+}
+.summery-title {
+  font-size: 42px;
+  color: #000;
+  font-weight: 800;
+}
+.summery-content {
+  font-size: 16px;
+  color: #000;
+  font-weight: 600;
+}
+
+.loading::after {
+  content: '';
+  border: 2px solid #fff;
+  position: absolute;
+  width: 15px;
+  border-top-color: transparent;
+  height: 15px;
+  border-radius: 50%;
+  top: 47%;
+  left: 33%;
+  transform: translate(-50%, -50%);
+  -webkit-animation: loading 1s infinite linear;
+  animation: loading 1s infinite linear;
+}
+.loading2::after {
+  content: '';
+  border: 2px solid #123c3d;
+  position: absolute;
+  width: 15px;
+  border-top-color: transparent;
+  height: 15px;
+  border-radius: 50%;
+  top: 86%;
+  left: 36%;
+  transform: translate(-50%, -50%);
+  -webkit-animation: loading 1s infinite linear;
+  animation: loading 1s infinite linear;
+}
+.loading3::after {
+  content: '';
+  border: 2px solid #123c3d;
+  position: absolute;
+  width: 15px;
+  border-top-color: transparent;
+  height: 15px;
+  border-radius: 50%;
+  top: 86%;
+  left: 34%;
+  transform: translate(-50%, -50%);
+  -webkit-animation: loading 1s infinite linear;
+  animation: loading 1s infinite linear;
+}
+

@@ -1,0 +1,16 @@
+@import "bootstrap.css";
+@import "bootstrap-extended.css";
+@import "../vendors/css/vendors.min.css";
+@import "colors.css";
+@import "components.css";
+@import "themes/dark-layout.css";
+@import "themes/semi-dark-layout.css";
+@import "core/menu/menu-types/vertical-menu.css";
+@import "core/colors/palette-gradient.css";
+@import "pages/dashboard-analytics.css";
+@import "pages/card-analytics.css";
+@import "plugins/tour/tour.css";
+@import "plugins/forms/validation/form-validation.css";
+@import "tables/datatable/datatables.min.css";
+@import "style.css";
+@import "https://cdn.rawgit.com/Pagawa/PgwSlider/master/pgwslider.css";

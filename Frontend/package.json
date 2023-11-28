@@ -1,0 +1,105 @@
+{
+  "name": "EASIFI",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "start": "npm run serve",
+    "serve": "vue-cli-service serve --port 3000",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint"
+  },
+  "dependencies": {
+    "@andresouzaabreu/vue-data-table": "^3.2.1",
+    "@babel/polyfill": "^7.12.1",
+    "@fortawesome/fontawesome-svg-core": "^1.2.36",
+    "@fortawesome/free-solid-svg-icons": "^5.15.4",
+    "@fortawesome/vue-fontawesome": "^3.0.0-5",
+    "@popperjs/core": "^2.10.2",
+    "@suadelabs/vue3-multiselect": "^1.0.2",
+    "@vueform/multiselect": "^2.3.2",
+    "@vuepic/vue-datepicker": "^3.0.0",
+    "@websanova/vue-upload": "^2.1.9",
+    "axios": "^0.24.0",
+    "bootstrap": "^5.1.3",
+    "core-js": "^3.6.5",
+    "crypto-js": "^4.1.1",
+    "datatables.net-dt": "^1.11.3",
+    "datatables.net-rowreorder": "^1.2.8",
+    "html-to-pdfmake": "^2.3.11",
+    "html2canvas": "^1.4.1",
+    "jquery": "^3.6.0",
+    "jspdf": "^2.5.1",
+    "jspdf-autotable": "^3.5.23",
+    "jw-vue-pagination": "^1.0.3",
+    "localstorage-slim": "^2.2.0",
+    "moment": "^2.29.1",
+    "mosha-vue-toastify": "^1.0.23",
+    "mutationobserver-shim": "^0.3.7",
+    "pace": "^0.0.4",
+    "pdfmake": "^0.2.5",
+    "socket.io": "^4.4.1",
+    "socket.io-client": "^4.4.1",
+    "sweetalert2": "^11.1.10",
+    "vee-validate": "^4.5.5",
+    "vue": "^3.0.0",
+    "vue-awesome": "^4.5.0",
+    "vue-axios": "^3.4.0",
+    "vue-loader": "^15.9.8",
+    "vue-loading-overlay": "^4.0.4",
+    "vue-next-select": "^2.10.2",
+    "vue-otp-input": "^1.0.0",
+    "vue-recaptcha": "^2.0.1",
+    "vue-router": "^4.0.0-0",
+    "vue-slider-component": "^4.0.0-beta.4",
+    "vue-spinner": "^1.0.4",
+    "vue-star-rating": "^2.1.0",
+    "vue-sweetalert2": "^5.0.2",
+    "vue3-loading-overlay": "^0.0.0",
+    "vue3-star-ratings": "^1.1.0",
+    "vue3-table-lite": "^1.1.3",
+    "vuex": "^4.0.0-0",
+    "yup": "^0.32.11"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "~4.5.0",
+    "@vue/cli-plugin-eslint": "~4.5.0",
+    "@vue/cli-plugin-router": "~4.5.0",
+    "@vue/cli-plugin-vuex": "~4.5.0",
+    "@vue/cli-service": "~4.5.0",
+    "@vue/compiler-sfc": "^3.0.0",
+    "@vue/eslint-config-prettier": "^6.0.0",
+    "babel-eslint": "^10.1.0",
+    "eslint": "^6.8.0",
+    "eslint-plugin-prettier": "^3.3.1",
+    "eslint-plugin-vue": "^7.0.0",
+    "husky": "^7.0.4",
+    "lint-staged": "^12.3.3",
+    "prettier": "^2.5.1"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "lint-staged": {
+    "*.{js,jsx}": [
+      "prettier --write",
+      "eslint --fix",
+      "git add"
+    ],
+    "*.{html,css,less,ejs}": [
+      "prettier --write",
+      "git add"
+    ]
+  },
+  "keywords": [
+    "vee-validate",
+    "validation",
+    "forms",
+    "form-validation",
+    "vue 3",
+    "form validation",
+    "vue",
+    "inputs"
+  ]
+}

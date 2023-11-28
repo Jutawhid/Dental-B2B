@@ -1,0 +1,260 @@
+.tab-content {
+  border-radius: 10px;
+  /* margin-top: 30px; */
+}
+.walletInfo {
+  min-height: 284px;
+  background: #00e2f2;
+  border: 1px solid #00e2f2;
+  border-radius: 20px;
+  padding: 25px;
+  color: #000000;
+}
+.walletInfo p.headerTxt {
+  font-size: 20px;
+  /* letter-spacing: 2px; */
+  color: #000000;
+  font-weight: 600;
+  width: 100%;
+  line-height: 25px;
+}
+.addMoneyBtn {
+  background: #123c3d;
+  border: 1px solid #123c3d;
+  border-radius: 10px;
+  color: #ffd700;
+  text-transform: uppercase;
+  padding: 10px 20px;
+  text-align: center;
+}
+.withdrawBtn {
+  background: #123c3d;
+  border: 1px solid #123c3d;
+  border-radius: 10px;
+  color: #fff;
+  text-transform: uppercase;
+  padding: 10px 20px;
+  text-align: center;
+}
+.bottom {
+  position: absolute;
+  bottom: 25px;
+  right: 40px;
+}
+img.cardD {
+  margin-bottom: 5px;
+}
+.walletBal {
+  bottom: 20px;
+  /* position: absolute; */
+  right: 40px;
+}
+.walletBal span.balanceTxt {
+  margin-top: 10px;
+  font-size: 35px;
+  color: #000000;
+  font-weight: 700;
+  bottom: 10px;
+  width: 100%;
+  opacity: 1;
+}
+/* .balanceHeader {
+  position: absolute;
+  right: 40px;
+  bottom: 60px;
+  opacity: 0.5;
+  font-size: 12px;
+} */
+.cardInfo {
+  background: #e8e8e8;
+  border: 1px solid #e8e8e8;
+  border-radius: 20px;
+  padding: 25px;
+  min-height: 284px;
+}
+.cardInfo i.icon-settings {
+  background: #ffffff;
+  border-radius: 50%;
+  padding: 10px;
+  color: #123c3d;
+  font-size: 19px;
+  cursor: pointer;
+}
+.leftPadding {
+  padding-left: 10px;
+}
+.cardTitle {
+  color: #123c3d;
+  font-size: 14px;
+}
+#cardInfo .dropdown-item a {
+  font-size: 12px;
+  font-weight: 600;
+}
+#cardInfo p.dropdown-item,
+#cardInfo p.dropdown-item:hover {
+  border-bottom: 1px solid #ededed;
+  margin: 0;
+  padding: 6px 0;
+  background: white;
+}
+#cardInfo .dropdown-item a.makeDefaultTxt,
+#cardInfo .dropdown-item a.makeDefaultTxt:hover {
+  color: #1492e6;
+  text-align: center;
+}
+#cardInfo .dropdown-menu {
+  min-width: 175px;
+  text-align: center;
+  border-radius: 10px;
+}
+#cardInfo .text-red {
+  color: #ff0000 !important;
+}
+#cardInfo .text-black {
+  color: #000 !important;
+}
+#cardForm .form-group {
+  margin-bottom: 0;
+}
+#cardForm .form-group label {
+  font-size: 12px;
+  font-weight: 500;
+  color: #123c3d;
+  margin-bottom: 5px;
+}
+#cardForm .form-group p {
+  background: #f3f3f3;
+  border: 1px solid #f3f3f3;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  word-wrap: break-word;
+}
+.addCard {
+  background: #ffffff;
+  border: 2px dashed #7caeaf;
+  border-radius: 20px;
+  min-height: 270px;
+}
+.maxHeight {
+  height: 270px;
+  max-height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.btn.btn-primary.addCardBtn {
+  width: auto;
+  height: auto;
+}
+button.btn.btn-primary.addCardBtn {
+  padding: 15px;
+  border-radius: 10px;
+  font-size: 20px;
+  width: 200px;
+}
+.defaultCardTxt {
+  background: #1492e6;
+  border: 1px solid #1492e6;
+  border-radius: 5px;
+  color: #ffffff;
+  padding: 5px 10px;
+  font-size: 10px;
+  font-weight: 500;
+}
+.absP {
+  /* position: absolute; */
+  /* vertical-align: middle; */
+  justify-content: center;
+  margin-top: -25px;
+}
+.borderActive {
+  border: 2px solid #1492e6;
+}
+
+#cardForm span{
+  font-weight: bold;
+}
+
+#editCard .modal-content {
+  background: #e8e8e8;
+  border: 1px solid #e8e8e8;
+  box-shadow: 0px 20px 30px #00000066;
+  border-radius: 20px;
+  padding: 15px;
+}
+#editCard .saveBtn {
+  background: #ffd700;
+  border: 1px solid #ffd700;
+  border-radius: 10px;
+  color: black;
+  font-size: 12px;
+  font-weight: 500;
+  padding: 10px 15px;
+  margin-right: 10px;
+}
+#editCard .closeBtn {
+  background: #123c3d;
+  border: 1px solid #123c3d;
+  border-radius: 10px;
+  color: white;
+  font-size: 12px;
+  font-weight: 500;
+  padding: 10px 15px;
+}
+#editForm p.form-input-hint {
+  background: transparent;
+  border: none;
+  font-size: 12px;
+  margin: -10px 5px 10px;
+  color: red;
+  font-weight: 400;
+}
+#editForm .form-control {
+  height: 36px;
+  margin-bottom: 20px;
+}
+.loading::after {
+  content: '';
+  border: 2px solid #fff;
+  position: absolute;
+  width: 15px;
+  border-top-color: transparent;
+  height: 15px;
+  border-radius: 50%;
+  top: 47%;
+  left: 33%;
+  transform: translate(-50%, -50%);
+  -webkit-animation: loading 1s infinite linear;
+  animation: loading 1s infinite linear;
+}
+.loading2::after {
+  content: '';
+  border: 2px solid #123c3d;
+  position: absolute;
+  width: 15px;
+  border-top-color: transparent;
+  height: 15px;
+  border-radius: 50%;
+  top: 86%;
+  left: 36%;
+  transform: translate(-50%, -50%);
+  -webkit-animation: loading 1s infinite linear;
+  animation: loading 1s infinite linear;
+}
+.loading3::after {
+  content: '';
+  border: 2px solid #123c3d;
+  position: absolute;
+  width: 15px;
+  border-top-color: transparent;
+  height: 15px;
+  border-radius: 50%;
+  top: 86%;
+  left: 34%;
+  transform: translate(-50%, -50%);
+  -webkit-animation: loading 1s infinite linear;
+  animation: loading 1s infinite linear;
+}

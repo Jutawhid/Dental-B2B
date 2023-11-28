@@ -1,0 +1,311 @@
+/* Login page*/
+.required-input {
+  color: red;
+}
+.flexbox-container {
+  display: flex;
+  align-items: center;
+  height: 100vh;
+  height: calc((3.58px) * 100);
+  justify-content: center;
+}
+.multiselect-option.is-selected {
+  background-color: #fff !important;
+  color: #000 !important;
+  border-bottom: 1px solid #e3e3e3;
+}
+.multiselect-option.is-selected .btn-close {
+  opacity: 1;
+}
+
+.form-label-group {
+  position: relative;
+  margin: 1rem 0;
+}
+
+.form-control:focus ~ .form-control-position i {
+  color: #ffd700;
+}
+.has-icon-left .form-control-position i {
+  position: relative;
+  left: 5px;
+  color: rgba(34, 41, 47, 0.4);
+}
+.feather {
+  font-family: feather !important;
+  speak-as: none;
+  font-style: normal;
+  font-weight: 400;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.navigation li.nav-item {
+  background: #e8e8e8;
+}
+.navigation li {
+  border-radius: 8px;
+}
+.tooth-icon {
+  width: 15px;
+  margin-left: 2px;
+}
+.enDisable {
+  display: block;
+  margin: auto 5px;
+}
+.options .chatIcon:hover {
+  background: #00e2f2;
+  color: black !important;
+}
+
+.update__btn {
+  background: #123c3d;
+  box-shadow: none;
+  border-radius: 5px;
+  padding: 10px 40px;
+  text-align: center;
+  font-size: 12px;
+  font-weight: bold;
+  font-family: poppins;
+  letter-spacing: 0px;
+  color: #ffffff;
+  opacity: 1;
+  border: 1px solid #123c3d;
+  cursor: pointer;
+}
+.delete__btn {
+  padding: 10px 20px !important;
+  background: red !important;
+  border: 1px solid red !important;
+  color: white !important;
+  cursor: pointer;
+}
+.create_btn {
+  background: #ffd700;
+  color: #000000;
+  font-weight: 600;
+  font-family: 'Poppins';
+  box-shadow: 0px 3px 6px #00000029;
+}
+
+.back_btn {
+  padding: 10px 20px;
+  background: #ffffff;
+  border: 1px solid #008b9c;
+  color: #123c3d;
+  box-shadow: none;
+  border-radius: 5px;
+  text-align: center;
+  font-size: 15px;
+  font-family: poppins;
+  opacity: 1;
+}
+.service-card-title {
+  display: flex;
+}
+
+/* .vue3-star-ratings__wrapper {
+  display: block;
+  margin: -2px -15px 0 -10px;
+  text-align: center;
+  padding: 0;
+  max-width: 150px;
+}
+.vue-star-rating-star {
+    width: 20px;
+    height: 20px;
+} */
+.btn-restore {
+  background: #ffd700;
+  border: 1px solid #ffd700;
+  border-radius: 10px;
+  color: #000000;
+  padding: 10px 20px;
+  margin: 5px;
+}
+.btn-download {
+  background: #123c3d;
+  border: 1px solid #123c3d;
+  border-radius: 10px;
+  color: #ffffff;
+  padding: 10px 20px;
+  margin: 5px;
+}
+.approveBtn {
+  margin-right: 5px;
+  background: #1492e6;
+  border-radius: 10px;
+  border: 1px solid #1492e6;
+  padding: 0.5rem;
+  font-size: 0.7rem;
+  letter-spacing: 0px;
+  color: #fff;
+}
+.rejectbtn {
+  margin-left: 5px;
+  background: #ffffff;
+  border: 1px solid #ff0000;
+  border-radius: 10px;
+  padding: 0.5rem;
+  font-size: 0.7rem;
+  letter-spacing: 0px;
+  color: #ff0000;
+}
+.rejectBtn {
+  margin-left: 5px;
+  background: #ffffff;
+  border: 1px solid #ff0000;
+  border-radius: 10px;
+  padding: 0.5rem;
+  font-size: 0.7rem;
+  letter-spacing: 0px;
+  color: #ff0000;
+}
+.approvedTxt {
+  font-size: 13px;
+  letter-spacing: 0px;
+  color: #1492e6;
+}
+.rejectedTxt {
+  font-size: 13px;
+  letter-spacing: 0px;
+  color: #ff0000;
+}
+table.dataTable thead .sorting:after,
+table.dataTable thead .sorting_asc:after,
+table.dataTable thead .sorting_desc:after,
+table.dataTable thead .sorting_asc_disabled:after,
+table.dataTable thead .sorting_desc_disabled:after {
+  display: none;
+}
+table.dataTable thead .sorting:before,
+table.dataTable thead .sorting_asc:before,
+table.dataTable thead .sorting_desc:before,
+table.dataTable thead .sorting_asc_disabled:before,
+table.dataTable thead .sorting_desc_disabled:before {
+  display: none;
+}
+
+/* scroll bar */
+/* width */
+::-webkit-scrollbar {
+  width: 8px;
+}
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: none;
+  background-color: transparent;
+}
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #123c3d;
+  border-radius: 10px;
+  border: none;
+}
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #00797b;
+}
+
+.cup-padding {
+  padding: 0 3rem;
+}
+.cupreg-padding {
+  padding: 0 30%;
+}
+
+@media (min-width: 993px) and (max-width: 1361px) {
+  .auth-page .signup-form {
+    max-width: 60%;
+  }
+  .caseFiles .filename {
+    width: 30%;
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  .rejectbtn {
+    margin-left: 0px;
+    padding: 5px;
+    font-size: 11px;
+  }
+  .applyBtn {
+    padding: 5px;
+    font-size: 10px;
+  }
+  .approveBtn {
+    padding: 5px;
+    margin: 5px;
+    font-size: 10px;
+  }
+  .rejectBtn {
+    margin-left: 0px;
+    padding: 5px;
+  }
+  .btn-restore {
+    padding: 10px 5px;
+    font-size: 0px;
+  }
+  .btn-download {
+    padding: 10px 5px;
+    margin: 5px;
+    font-size: 0px;
+  }
+  .cupreg-padding {
+    padding: 0 3rem;
+  }
+  /* .tab-nav {
+    flex-wrap: nowrap;
+    overflow-x: scroll;
+    overflow-y: clip;
+    box-shadow: inset -12px 0 15px -10px rgba(0, 0, 0, 0.6);
+  } */
+  .tab-nav::-webkit-scrollbar {
+    display: none;
+  }
+
+  /* Hide scrollbar for IE, Edge and Firefox */
+  .tab-nav {
+    -ms-overflow-style: none; /* IE and Edge */
+    scrollbar-width: none; /* Firefox */
+  }
+  .card-body {
+    padding: 0 1rem;
+  }
+  .header-navbar .navbar-container ul.nav li.nav-item .search-input-icon i {
+    color: #666666 !important;
+  }
+  .header-navbar .navbar-container ul.nav li.nav-item .search-input-close i {
+    color: #666666 !important;
+  }
+  .navbar-container .search-input input {
+    color: #666;
+    line-height: 20px;
+    padding: 1.8rem 3.6rem;
+  }
+  #user-profile .nav.nav-tabs .nav-item .nav-link {
+    padding: 0px 15px 25px;
+    color: #123c3d;
+    opacity: 0.5;
+  }
+  #ext .nav.nav-tabs .nav-item .nav-link {
+    padding: 10px 10px;
+  }
+  .caseFiles .uploadBtn {
+    width: 100%;
+  }
+  #confirmPayModal .modal-content {
+    padding: 0px 0px;
+  }
+  #confirmPayModal .serviceGroup img {
+    width: 40px;
+    height: 40px;
+  }
+  #confirmPayModal .collapse .card {
+    padding: 10px;
+}
+}
